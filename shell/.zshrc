@@ -59,6 +59,7 @@ if [[ ! -z "$TMUX" ]]; then
 fi
 
 alias vim="nvim"
+alias v="nvim"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -99,5 +100,4 @@ gco() {
   fi
 }
 compdef _git gco=git-checkout
-
 
